@@ -1,0 +1,12 @@
+body {
+    animation: 10000ms ease-in-out infinite color-change;
+  }
+  
+  @keyframes color-change {
+    0% {background-color: rgb(247, 127, 227);}
+    20% {background-color: rgb(238, 235, 41);}
+    40% {background-color: rgb(91, 171, 224);}
+    60% {background-color: rgb(224, 53, 224);}
+    80% {background-color: rgb(23, 187, 23);}
+    100% {background-color: rgb(255, 148, 60);}
+  }
